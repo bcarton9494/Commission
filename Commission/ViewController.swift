@@ -10,11 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var commissionPayTextField: UITextField!
+    
+    @IBOutlet weak var totalPayLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
+    @IBAction func calculateOnTapped(_ sender: Any) {
+        
+        
 
-
+  
+    }
+    func getInput() -> Double{
+        return 67.82
+    }
 }
 
